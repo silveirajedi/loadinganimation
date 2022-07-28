@@ -7,28 +7,38 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Website Load Animation</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="version1.css">
+    <link rel="stylesheet" href="version2.css">
 </head>
 <body>
-<section>
-    <div class="dots">
-        <span style="--i:1;"></span>
-        <span style="--i:2;"></span>
-        <span style="--i:3;"></span>
-        <span style="--i:4;"></span>
-        <span style="--i:5;"></span>
-        <span style="--i:6;"></span>
-        <span style="--i:7;"></span>
-        <span style="--i:8;"></span>
-        <span style="--i:9;"></span>
-        <span style="--i:10;"></span>
-        <span style="--i:11;"></span>
-        <span style="--i:12;"></span>
-        <span style="--i:13;"></span>
-        <span style="--i:14;"></span>
-        <span style="--i:15;"></span>
+    <h1>Home Page</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi error iure neque nesciunt odit sapiente! Accusamus accusantium aperiam, atque ea fugit natus quam quis, reprehenderit rerum ullam velit, voluptatem voluptatibus.</p>
+    <section class="load-1" onclick="close1()">
+        <div class="dots">
+            <span style="--i:1;"></span>
+            <span style="--i:2;"></span>
+            <span style="--i:3;"></span>
+            <span style="--i:4;"></span>
+            <span style="--i:5;"></span>
+            <span style="--i:6;"></span>
+            <span style="--i:7;"></span>
+            <span style="--i:8;"></span>
+            <span style="--i:9;"></span>
+            <span style="--i:10;"></span>
+            <span style="--i:11;"></span>
+            <span style="--i:12;"></span>
+            <span style="--i:13;"></span>
+            <span style="--i:14;"></span>
+            <span style="--i:15;"></span>
+        </div>
+    </section>
+    <input type="button" value="Versão 1" onclick="load1()">
+
+    <div class="load-2" onclick="close2()">
+        <div class="ring"></div>
+        <span>Carregando...</span>
     </div>
-</section>
-
-
+    <input type="button" value="Versão 2" onclick="load2()">
+    <script src="script.js"></script>
 </body>
 </html>
